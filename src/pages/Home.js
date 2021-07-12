@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import API from '../utils/API'
 import Search from '../components/Search/Search'
 import Employee from '../components/Employee/Employee'
+import styles from '../pages/Home.module.css'
+
 class Home extends Component {
     state = {
         employees: [],
@@ -88,8 +90,8 @@ class Home extends Component {
                         <td>
                             Email
                         </td>
-                        <td onClick={this.handleSort}>
-                            Age
+                        <td onClick={this.handleSort} className={styles.age}>
+                            Sort by: Age
                         </td>
                     </tr>
                 {this.state.searchedEmps ? this.state.searchedEmps.map((employee) => <Employee employee={employee}></Employee>) : <></>}
