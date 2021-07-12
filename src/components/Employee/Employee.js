@@ -14,16 +14,16 @@ class Employee extends Component {
     render(){
         return(
             <tr className={styles.employeeTable}>
-                <td>
+                <td className={styles.employeeImage}>
                     <img src={this.props.employee.picture.thumbnail}></img>
                 </td>
-                <td>
+                <td className={styles.employeeName}>
                     {this.props.employee.name.first + " " + this.props.employee.name.last}
                 </td>
-                <td>
+                <td className={styles.employeeEmail}>
                     {this.props.employee.email}
                 </td>
-                <td>
+                <td className={styles.employeeAge}>
                     {this.props.employee.dob.age}
                 </td>
             </tr>
