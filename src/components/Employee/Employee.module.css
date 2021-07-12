@@ -1,6 +1,6 @@
 tr {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding:20px;
     align-items: center;
     margin:30px;
@@ -10,5 +10,9 @@ tr {
 
 img {
     width: 75px;
+}
+
+.age {
+    background-color: springgreen;
 }
 
