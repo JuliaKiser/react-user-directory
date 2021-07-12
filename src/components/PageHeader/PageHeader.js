@@ -1,10 +1,9 @@
 import styles from "./PageHeader.module.css";
 
-const PageHeader = (props) => {
+const PageHeader = () => {
   return (
     <div className={styles.container}>
-      <hr />
-      <h1>{props.title}</h1>
+      <h1>User Directory</h1>
     </div>
   );
 };
