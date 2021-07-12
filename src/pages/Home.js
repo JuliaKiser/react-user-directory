@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import API from '../utils/API'
-import Search from '../components/Search'
-import Employee from '../components/Employee'
+import Search from '../components/Search/Search'
+import Employee from '../components/Employee/Employee'
 class Home extends Component {
     state = {
         employees: [],
