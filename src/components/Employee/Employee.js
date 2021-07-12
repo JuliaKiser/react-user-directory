@@ -23,7 +23,7 @@ class Employee extends Component {
                 <td className={styles.employeeEmail}>
                     {this.props.employee.email}
                 </td>
-                <td className={styles.employeeAge}>
+                <td className={styles.employeeAge} id="age">
                     {this.props.employee.dob.age}
                 </td>
             </tr>
