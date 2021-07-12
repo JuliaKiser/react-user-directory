@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import styles from "./Search.module.css"
 
 class Search extends Component {
     constructor(props){
@@ -7,8 +8,8 @@ class Search extends Component {
 
     render(){
         return(
-            <div>
-                <form>
+            <div className={styles.searchForm}>
+                <form>Search by Last Name:
                     <input
                     onChange={event => this.props.handleSearch(event)}
                     >
