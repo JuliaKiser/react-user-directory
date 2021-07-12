@@ -7,9 +7,9 @@
 4. [Requirements](##Requirements)
 
 ## Application Links
-Deployed Link: https://juliakiser.github.io/Kiser_Portfolio/
+Deployed Link: https://kiser-ee-directory.herokuapp.com/
 
-Github Repo Link: https://github.com/JuliaKiser/Kiser_Portfolio
+Github Repo Link: https://github.com/JuliaKiser/react-user-directory
 
 
 ## Webpage Details
